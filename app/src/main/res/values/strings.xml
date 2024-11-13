@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">talkback app(english to french)</string>
+    <string name="french_teacher_app">French teacher app</string>
+    <string name="Black" />
+    <string name="yellow" />
+    <string name="green" />
+    <string name="purple">purple</string>
+</resources>
