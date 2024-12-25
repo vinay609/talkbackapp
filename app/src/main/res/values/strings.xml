@@ -5,4 +5,6 @@
     <string name="yellow" />
     <string name="green" />
     <string name="purple">purple</string>
+    <string name="black">black</string>
+    <string name="purplet">purple</string>
 </resources>

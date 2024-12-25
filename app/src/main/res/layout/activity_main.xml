@@ -9,6 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="382dp"
         android:layout_height="56dp"
         android:text="@string/french_teacher_app"
@@ -20,7 +21,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.145" />
+        app:layout_constraintVertical_bias="0.118" />
 
     <Button
         android:id="@+id/btngreen"
@@ -50,7 +51,7 @@
         android:id="@+id/btnblack"
         android:layout_width="154dp"
         android:layout_height="67dp"
-        android:text="black"
+        android:text="@string/black"
         android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -74,12 +75,13 @@
         android:id="@+id/btnpurple"
         android:layout_width="154dp"
         android:layout_height="67dp"
-        android:text="purple"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/purplet"
         android:textColor="#9773D5"
         android:textSize="30sp"
         android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="128dp"
-        tools:layout_editor_absoluteY="372dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btngreen" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
